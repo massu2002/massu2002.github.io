@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>桝岡 篤人 ホームページ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
+    <style>
+        header {
+            background-color: #043c2e; /* ダークグリーン */
+            width: 100%;
+        }
+
+        nav {
+            padding: 10px 50px 10px 0px;
+            display: flex;
+            justify-content: flex-end;
+            background-color: #043c2e;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="home">
+    <header>
+        <nav>
+            <a href="" class="bachelor">Home</a>
+            <a href="#profile" class="bachelor">Profile</a>
+            <a href="#publications" class="bachelor">Publications</a>
+            <a href="contents.html" class="bachelor">Contents</a>
+        </nav>
+    </header>
+
+    <div id="container">
+        <header>
+            <h1 id="logo"><a href="index.html"><img src="images/logo_home.png" alt="Sample Gallery"></a></h1>
+            <aside id="mainimg">
+                <img src="images/1.jpg" alt="" class="slide0">
+                <img src="images/1.jpg" alt="" class="slide1">
+                <img src="images/2.jpg" alt="" class="slide2">
+                <img src="images/3.jpg" alt="" class="slide3">
+                <img src="images/123_kazari.png" alt="" class="kazari">
+            </aside>
+            <ul class="icon">
+                <li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+                <li><a href="mailto:masuoka@example.com"><img src="images/icon_mail.png" alt="Mail"></a></li>
+                <li><a href="#"><img src="images/icon_github.png" alt="GitHub"></a></li>
+            </ul>
+        </header>
+
+        <div id="contents">
+
+            <section id="profile">
+                <h3>Profile<span>略歴</span></h3>
+                <p>XXXX.XX - 現在: 所属機関・部署</p>
+                <p>XXXX.XX - XXXX.XX: 学歴または前職</p>
+                <p>その他の略歴などをここに記載します。</p>
+            </section>
+
+            <section id="publications">
+                <h3>Publications<span>業績</span></h3>
+                <h4>National Conference ｜ 国内会議</h4>
+                <p>（ここに業績を追加してください）</p>
+
+                <h4>International Conference ｜ 国際学会</h4>
+                <p>（ここに業績を追加してください）</p>
+
+                <h4>Paper｜論文</h4>
+                <p>（ここに業績を追加してください）</p>
+
+                <h4>Award｜受賞</h4>
+                <p>（ここに業績を追加してください）</p>
+
+                <h4>Patent｜特許</h4>
+                <p>（ここに業績を追加してください）</p>
+
+                <h4>Others｜その他</h4>
+                <p>（ここに業績を追加してください）</p>
+            </section>
+
+        </div>
+
+        <footer>
+            <ul class="icon">
+                <li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+                <li><a href="mailto:masuoka@cv.info.gifu-u.ac.jp"><img src="images/icon_mail.png" alt="Mail"></a></li>
+                <li><a href="#"><img src="images/icon_github.png" alt="GitHub"></a></li>
+            </ul>
+            <small>Copyright&copy; <a href="index.html">Masuoka Atsuto</a> All Rights Reserved.</small>
+            <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+        </footer>
+    </div>
+
+    <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
